@@ -1,0 +1,27 @@
+{
+  "name": "forms-smoke-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "cypress:run": "CYPRESS_DEBUG=true cypress run --browser chrome",
+    "cypress:e2e": "cypress run --browser chrome --e2e"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "cypress-axe": "^1.6.0",
+    "cypress-each": "^1.14.0",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-terminal-report": "^7.1.0",
+    "cypress-wait-until": "^3.0.2",
+    "typescript": "^5.5.2",
+    "webpack": "^5.89.0"
+  },
+  "resolutions": {
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6"
+  }
+}
