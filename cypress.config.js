@@ -2,6 +2,7 @@ import { defineConfig } from "cypress";
 // import terminalReport from "cypress-terminal-report/src/installLogsPrinter";
 
 
+
 // Default form URLs. Can override with `FORM_URL` environment variable
 const FORM_STAGING_URL =
   "https://forms-staging.cdssandbox.xyz/en/id/cmcahuj400000k00btz7n4guz";
